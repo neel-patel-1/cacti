@@ -1,0 +1,123 @@
+cacti_interface.h:    bool	 print_detail_debug;
+cacti_interface.h:    int print_detail;
+subarray.cc:	  if (g_ip->print_detail_debug)
+Ucache.cc:  g_ip->print_detail_debug = 0; // ---detail outputs for debug, initiated for 3D memory
+TSV.cc:	if(g_ip->print_detail_debug)
+TSV.cc:	if(g_ip->print_detail_debug)
+TSV.cc:	  if(g_ip->print_detail_debug)
+io.cc:      if (g_ip->print_detail_debug)
+io.cc:	  if (g_ip->print_detail_debug)
+io.cc:    		print_detail_debug = true;
+io.cc:    		print_detail_debug = false;
+io.cc:    	if (g_ip->print_detail_debug)
+io.cc:    	{cout << "io.cc: print_detail_debug = " << print_detail_debug << endl;}
+io.cc:      if(g_ip->print_detail_debug)
+io.cc:      if(g_ip->print_detail_debug)
+io.cc:      if(g_ip->print_detail_debug)
+io.cc:        if(g_ip->print_detail_debug)
+io.cc:    //g_ip->print_detail_debug = debug_detail;
+io.cc:        print_detail = 1;
+io.cc:        print_detail = 0;
+io.cc:  cout << "Print level                   : " << print_detail << endl;
+io.cc:  if(g_ip->print_detail_debug)
+io.cc:  g_ip->print_detail = 1;
+io.cc:  g_ip->print_detail_debug = debug_detail;
+io.cc:  g_ip->print_detail = 1;
+io.cc:  g_ip->print_detail = 1;
+io.cc:  if (g_ip->print_detail)
+io.cc:    if (g_ip->print_detail) {
+io.cc:      if (g_ip->print_detail)
+io.cc://  g_ip->print_detail = 1;
+io.cc://  g_ip->print_detail = 1;
+parameter.cc:		  C_g_ideal=scan_five_input_double(line,"-C_g_ideal","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  C_fringe=scan_five_input_double(line,"-C_fringe","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  C_junc_sidewall =scan_five_input_double(line,"-C_junc_sw","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  C_junc=scan_five_input_double(line,"-C_junc","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  l_phy=scan_five_input_double(line,"-l_phy","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  l_elec=scan_five_input_double(line,"-l_elec","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:			nmos_effective_resistance_multiplier=scan_five_input_double(line,"-nmos_effective_resistance_multiplier","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  Vdd=scan_five_input_double(line,"-Vdd","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  Vth=scan_five_input_double(line,"-Vth","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  Vdsat=scan_five_input_double(line,"-Vdsat","V",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  I_on_n=scan_five_input_double(line,"-I_on_n","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  I_on_p = scan_five_input_double(line,"-I_on_p","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  scan_five_input_double_temperature(line,"-I_off_n","F/um",tech_flavor,temperature,g_ip->print_detail_debug,I_off_n);
+parameter.cc:		 scan_five_input_double_temperature(line,"-I_g_on_n","F/um",tech_flavor,temperature,g_ip->print_detail_debug,I_g_on_n);
+parameter.cc:		  C_ox=scan_five_input_double(line,"-C_ox","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  t_ox=scan_five_input_double(line,"-t_ox","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  n_to_p_eff_curr_drv_ratio=scan_five_input_double(line,"-n2p_drv_rt","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  long_channel_leakage_reduction=scan_five_input_double(line,"-lch_lk_rdc","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  Mobility_n=scan_five_input_double(line,"-Mobility_n","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  gmp_to_gmn_multiplier=scan_five_input_double(line,"-gmp_to_gmn_multiplier","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  n_to_p_eff_curr_drv_ratio=scan_five_input_double(line,"-n_to_p_eff_curr_drv_ratio","F/um",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:    if(g_ip->print_detail_debug)
+parameter.cc:	bool print = g_ip->print_detail_debug;
+parameter.cc:		  vdd=scan_five_input_double(line,"-Vdd","V",tech_flavor,g_ip->print_detail_debug);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-vdd_cell","V",tech_flavor,cell_type, g_ip->print_detail_debug,vdd_cell);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-Wmemcella","V",tech_flavor,cell_type, g_ip->print_detail_debug,cell_a_w);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-Wmemcellpmos","V",tech_flavor,cell_type, g_ip->print_detail_debug,cell_pmos_w);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-Wmemcellnmos","V",tech_flavor,cell_type, g_ip->print_detail_debug,cell_nmos_w);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-area_cell","V",tech_flavor,cell_type, g_ip->print_detail_debug,area_cell);
+parameter.cc:		  scan_five_input_double_mem_type(line,"-asp_ratio_cell","V",tech_flavor,cell_type, g_ip->print_detail_debug,asp_ratio_cell);
+parameter.cc:		  logic_scaling_co_eff = scan_single_input_double(line,"-logic_scaling_co_eff","F/um", g_ip->print_detail_debug);
+parameter.cc:		  core_tx_density = scan_single_input_double(line,"-core_tx_density","F/um", g_ip->print_detail_debug);
+parameter.cc:			  tsv_pitch = scan_input_double_tsv_type(line,"-tsv_pitch","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_diameter = scan_input_double_tsv_type(line,"-tsv_diameter","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_length = scan_input_double_tsv_type(line,"-tsv_length","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_dielec_thickness = scan_input_double_tsv_type(line,"-tsv_dielec_thickness","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_contact_resistance = scan_input_double_tsv_type(line,"-tsv_contact_resistance","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_depletion_width = scan_input_double_tsv_type(line,"-tsv_depletion_width","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:			  tsv_liner_dielectric_constant = scan_input_double_tsv_type(line,"-tsv_liner_dielectric_cons","F/um", g_ip->ic_proj_type, tsv_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_I_on += alpha*scan_five_input_double(line,"-dram_cell_I_on","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_Vdd += alpha* scan_five_input_double(line,"-dram_cell_Vdd","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_C += alpha* scan_five_input_double(line,"-dram_cell_C","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_I_off_worst_case_len_temp += alpha* scan_five_input_double(line,"-dram_cell_I_off_worst_case_len_temp","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  vpp += alpha* scan_five_input_double(line,"-vpp","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  sckt_co_eff += alpha * scan_single_input_double(line,"-sckt_co_eff","F/um", g_ip->print_detail_debug);
+parameter.cc:		  chip_layout_overhead += alpha * scan_single_input_double(line,"-chip_layout_overhead","F/um", g_ip->print_detail_debug);
+parameter.cc:		  macro_layout_overhead += alpha * scan_single_input_double(line,"-macro_layout_overhead","F/um", g_ip->print_detail_debug);
+parameter.cc:		  sense_delay = scan_single_input_double(line,"-sense_delay","F/um", g_ip->print_detail_debug);
+parameter.cc:		  sense_dy_power = scan_single_input_double(line,"-sense_dy_power","F/um", g_ip->print_detail_debug);
+parameter.cc:		  sckt_co_eff += (1-alpha)* scan_single_input_double(line,"-sckt_co_eff","F/um", g_ip->print_detail_debug);
+parameter.cc:		  chip_layout_overhead += (1-alpha)* scan_single_input_double(line,"-chip_layout_overhead","F/um", g_ip->print_detail_debug);
+parameter.cc:		  macro_layout_overhead += (1-alpha)* scan_single_input_double(line,"-macro_layout_overhead","F/um", g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_I_on += (1-alpha) * scan_five_input_double(line,"-dram_cell_I_on","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_Vdd += (1-alpha) * scan_five_input_double(line,"-dram_cell_Vdd","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_C += (1-alpha) * scan_five_input_double(line,"-dram_cell_C","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  dram_cell_I_off_worst_case_len_temp += (1-alpha) * scan_five_input_double(line,"-dram_cell_I_off_worst_case_len_temp","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:		  vpp += (1-alpha)* scan_five_input_double(line,"-vpp","F/um", ram_cell_tech_type, g_ip->print_detail_debug);
+parameter.cc:      if (g_ip->print_detail_debug)
+parameter.cc:	  if (g_ip->print_detail_debug)
+parameter.cc://			  if (g_ip->print_detail_debug)
+parameter.cc://	  if (g_ip->print_detail_debug)
+mat.cc:  	  if (g_ip->print_detail_debug)
+mat.cc:    if (g_ip->print_detail_debug)
+mat.cc:	    if (g_ip->print_detail_debug)
+mat.cc:		  if (g_ip->print_detail_debug)
+memorybus.cc:	if (g_ip->print_detail_debug)
+memorybus.cc:    if (g_ip->print_detail_debug)
+memorybus.cc:	if (g_ip->print_detail_debug)
+memorybus.cc:    if (g_ip->print_detail_debug)
+memorybus.cc:	if(g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:	if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:			if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:		if (g_ip->print_detail_debug)
+memorybus.cc:			if (g_ip->print_detail_debug)
+memorybus.cc:			  if (g_ip->print_detail_debug)
+memorybus.cc:		if(g_ip->print_detail_debug)
+basic_circuit.cc:	if (g_ip->print_detail_debug)
+uca.cc:  if (g_ip->print_detail_debug)
+uca.cc:	  if (g_ip->print_detail_debug)
+uca.cc:		if(g_ip->print_detail_debug)
+uca.cc:	if(g_ip->print_detail_debug)
+uca.cc:	if(g_ip->is_3d_mem && g_ip->print_detail_debug)
+uca.cc:		if(g_ip->print_detail_debug)
+uca.cc:	  if (g_ip->print_detail_debug)
+uca.cc:	  if (g_ip->print_detail_debug)

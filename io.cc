@@ -2777,8 +2777,8 @@ void output_UCA(uca_org_t *fr)
 		//cout<<"	Write power: "<<  fr->data_array2->write_power * 1e3  << " mW" <<endl;
 		//cout<<"	Peak read power: "<< read_energy/((g_ip->burst_depth)/(g_ip->sys_freq_MHz*1e6)/2) * 1e3  << " mW" <<endl;
 		cout<<"Area Components:"<<endl;
-		//cout<<"	Height: "<<area.h/1e3<<" mm"<<endl;
-		//cout<<"	Length: "<<area.w/1e3<<" mm"<<endl;
+		//cout<<"	Height: "<<Area.h/1e3<<" mm"<<endl;
+		//cout<<"	Length: "<<Area.w/1e3<<" mm"<<endl;
 		//cout<<"	DRAM+peri Area: "<< fr->data_array2->area/1e6<<" mm2"<<endl;
 
 		//double DRAM_area_per_die = (g_ip->partition_gran>0) ? fr->data_array2->area : (fr->data_array2->area/0.5);
@@ -2965,10 +2965,12 @@ void output_UCA(uca_org_t *fr)
     }
   }
 	} //end if(!g_ip->is_3d_mem)
+  g_ip->print_detail =1;
   if (g_ip->print_detail)
   {
     //if(g_ip->fully_assoc) return;
 
+ g_ip->is_3d_mem =1;
 	  if (g_ip->is_3d_mem)
 	  {
 		  cout << endl << endl << "3D DRAM Detail Components:" << endl << endl;
